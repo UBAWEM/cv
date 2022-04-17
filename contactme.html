@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact ME</title>
+</head>
+<body>
+   <CENTER> <h1>MY CONTACT DETALS</h1></CENTER>
+   <P>Mail: jakowlewpawel@gmail.com<br> Cont.number: +48574785684<br>Contry: Poland,Warsaw</P>
+   <HR>
+    <ul>
+<li><a href="https://www.instagram.com/ubaawem/"> INSTAGRAM</a></li>
+<li><a href="https://vk.com/detector99"> VK</a></li>
+<li><a href="https://www.facebook.com/pavel.yakovlev.359"> FACEBOOK</a></li>
+<LI><a  href="https://www.tiktok.com/pl-PL/">TICK-TOCK</a> </LI>
+    </ul>
+    <hr>
+    <!-- 
+        Содержат переменные
+        <form> - резюме/форма
+        <label> - надпись
+        <input> -  позволяет вводить данные
+        <textarea> - позволяет вписать большой текст
+            (переменные)
+            -text- выводит текст
+            - color - смена цвета
+            -submit - клавиша отправить
+            -checkbox - галочка
+            -radio - кнопка переключатель( как галочка, но можно выбрать только одно
+            значение)
+            -action -при нажатии на клавишу, определяет куда нас перекинет. (если мы хотим
+            использовать имейл, то перед имейлем надо вставить команду
+            (mailto), пример: action="mailto:jakowlewpawel@gmail.com"
+            если мы видим что в сообщении которое хотим передать какой то текст, а 
+            по его передаче мы видим непонятные символы, мы должны прописать строку 
+            enctype="text/plain")
+
+
+     -->
+    <form action="mailto:jakowlewpawel@gmail.com" method="post", enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="YourName" value=""><br>
+        <label>Your Email:</label>
+        <input type="email" name="YourEmail" id=""><br>
+        <label > Your Message:</label><br>
+        <textarea name="YourMessage" id="" cols="30" rows="10"></textarea><br>
+        <br>
+        <input type="file" name="" id=""><br>
+        <label>Do you want to sign up to the email list?</label>
+        <input type="checkbox" name="" id=""> 
+        <input type="submit", name="">
+       
+    </form>
+</body>
+</html>
